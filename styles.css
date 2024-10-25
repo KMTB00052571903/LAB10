@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.columns {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.column h2 {
+    text-align: center;
+    
+}
+
+
+
+
+
+#pendiente-column {
+    background-color: #8BC34A; /* Verde */
+}
+
+#haciendo-column {
+    background-color: #00BCD4; /* Cyan */
+}
+
+#completada-column {
+    background-color: #FF9800; /* Naranja */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent; /* Sin color de fondo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}

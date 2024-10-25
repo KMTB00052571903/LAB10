@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Gestor de Tareas</h1>
+    <div class="input-container">
+        <input type="text" id="new-task" placeholder="Nueva tarea">
+        <button onclick="addTask()">Agregar</button>
+    </div>
+    <div class="columns">
+        <div class="column" id="pendiente-column">
+            <h2>Pendiente</h2>
+            <ul id="pendiente-tasks"></ul>
+        </div>
+        <div class="column" id="haciendo-column">
+            <h2>Haciendo</h2>
+            <ul id="haciendo-tasks"></ul>
+        </div>
+        <div class="column" id="completada-column">
+            <h2>Completada</h2>
+            <ul id="completada-tasks"></ul>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
